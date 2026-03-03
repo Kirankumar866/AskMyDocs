@@ -1,0 +1,30 @@
+# Core
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-dotenv==1.0.1
+python-multipart==0.0.18
+
+# AI & Embeddings
+openai==1.58.1
+tiktoken==0.8.0
+
+# Vector Store (0.6+ has prebuilt wheels, no C++ compiler needed)
+chromadb>=0.6.0
+
+# Document Processing
+pypdf==5.1.0
+
+# Chunking & Text Processing
+langchain-text-splitters==0.3.4
+langchain-core==0.3.28
+
+# BM25 Sparse Retrieval
+rank-bm25==0.2.2
+
+# Cross-Encoder Reranking
+sentence-transformers==3.3.1
+
+# Utilities
+pydantic==2.10.4
+pydantic-settings==2.7.1
+numpy>=1.26.0
